@@ -1,0 +1,13 @@
+<div class="main-content">
+  <ngb-tabset [activeId]="activeTabUrl"  (tabChange)="onTabChange($event)">
+    <ngb-tab *ngFor="let tab of tabs ; let index = index"  [id]="tab.url">
+      <ng-template ngbTabTitle>
+        <span>{{tab.name}}</span>
+        <span (click)="closeTab(index, $event)">&times;</span>
+      </ng-template>
+      <ng-template ngbTabContent>
+        <router-outlet></router-outlet>
+      </ng-template>
+    </ngb-tab>
+  </ngb-tabset>
+</div>

@@ -1,0 +1,15 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu-bar {
+  width: 420px;
+  background-color: #cae4db;
+}
+
+.main-content-container {
+  width: 100%;
+}

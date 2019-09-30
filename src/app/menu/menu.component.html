@@ -1,0 +1,7 @@
+<nav class="menu">
+  <ul class="menu-options-list">
+    <li *ngFor="let option of menuOptions" class="menu-option"   (click)="openTab(option.url)">
+      {{option.name}}
+    </li>
+  </ul>
+</nav>

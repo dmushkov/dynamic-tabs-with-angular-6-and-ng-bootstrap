@@ -1,0 +1,21 @@
+.menu {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-options-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-option {
+  padding: 10px 0px 10px 50px;
+}
+
+.menu-option:hover {
+  background-color: #7a9d96;
+  cursor: pointer;
+}
